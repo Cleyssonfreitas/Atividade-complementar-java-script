@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="./index.html">voltar</a>
+    </h1>
+    <script>
+        function imc() {
+          var peso = parseFloat(prompt("Insira o peso"));
+          var altura = parseFloat(prompt("Insira a altura"));
+        
+          var resultado = peso / (altura * altura);
+          return resultado;
+        }
+        
+        var resultadoIMC = imc();
+        
+        console.log("O seu IMC é: " + resultadoIMC);
+        alert("O seu IMC é: " + resultadoIMC.toFixed(2));
+    
+        
+
+    </script>
+</body>
+</html>

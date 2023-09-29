@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Múltiplo</title>
+</head>
+<body>
+    <h1><a href="./index.html">voltar</a>
+        </h1>
+    <script>
+        function verificarMultiplo() {
+          var numero1 = parseInt(prompt("insira primeiro número"));
+          var numero2 = parseInt(prompt("insira o segundo número"));
+
+          if (numero1 % numero2 === 0) {
+            alert(numero1 + " é múltiplo de " + numero2 + ".");
+          } else {
+            alert(numero1 + " não é múltiplo de " + numero2 + ".");
+          }
+        }
+
+        verificarMultiplo();
+    </script>
+</body>
+</html>
